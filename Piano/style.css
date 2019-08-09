@@ -1,0 +1,33 @@
+body {
+    height: 600px;
+    background-color: #00FF1E;
+    display: flex;
+    align-items: center;
+}
+.key {
+    background-color: #FFF423;
+    border: gray 3px solid;
+    height: 300px;
+    width: 65px;
+    border-radius: 1em;
+    margin: 5px;
+    font-size: 2em;
+    display: flex;
+    align-content: center;
+    align-items: flex-end;
+    justify-content: space-around;
+    transition: all .1s ease;
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.animation {
+    transform: scale(1.2);
+    box-shadow: 0 0 2rem;
+    border-color: #FF50CD;
+}
